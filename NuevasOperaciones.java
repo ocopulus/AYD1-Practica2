@@ -1,7 +1,13 @@
 public class Operaciones{
 
-	public factorial(int num){
-
-		return 0;
+	public  int factorial(int num){
+ 		int resultado = 1;
+        while(numero > 0){
+            resultado = resultado*numero;
+            numero--;
+        }
+    }
+		return resultado;
 	}
+
 }
