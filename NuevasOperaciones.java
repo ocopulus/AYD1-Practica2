@@ -1,7 +1,10 @@
 public class Operaciones{
 
-	public factorial(int num){
-
-		return 0;
+	public int factorial(int num){
+		if ( numero <= 1 ) {
+        	return 1;
+        } else {
+            return numero*factorial(numero-1);
+        }
 	}
 }
