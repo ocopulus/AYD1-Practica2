@@ -9,4 +9,11 @@ public class Operaciones{
         }
 	}
 
+	 public void factorial2(int numero){
+        int resultado = 1;
+      while(numero > 0){
+            resultado = resultado*numero;
+            numero--;
+        }
+
 }
