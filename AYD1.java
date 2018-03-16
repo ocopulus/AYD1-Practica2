@@ -13,7 +13,7 @@ public class AYD1 {
         String resultado = Integer.toString(c1, 2);
         return resultado;
     }
-    
+
     public String Resta(String a, String b) {
         int a1 = Integer.parseInt(a, 2);
         int b1 = Integer.parseInt(b, 2);
@@ -25,6 +25,7 @@ public class AYD1 {
     public String Dividir(String a, String b) {
         int a1 = Integer.parseInt(a, 2);
         int b1 = Integer.parseInt(b, 2);
+        if(b1==0) return "error";
         int c1 = a1 / b1;
         String resultado = Integer.toString(c1, 2);
         return resultado;
