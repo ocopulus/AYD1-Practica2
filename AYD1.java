@@ -47,7 +47,6 @@ public class AYD1 {
         }
         return resultado.toString;
     }
-    
      
     public String Multiplicacion(String a) {
         int a1 = Integer.parseInt(a, 2);
