@@ -45,8 +45,7 @@ public class AYD1 {
         int resultado = 1;
         if(b1 == 0) return "1";
         for (int x = 0; x<b1; x++){
-            resultado = resultado * a1;
-
+            resultado = resultado * a1;   
         }
         return resultado.toString;
     }
