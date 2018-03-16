@@ -65,8 +65,14 @@ public class AYD1 {
     }
 
     public String Potencia(String a,String b){
-        int a1 = Integer.parseInt(a, 2);
-        int b1 = Integer.parseInt(b, 2);
+        int a1;
+         int b1;
+        try{
+            a1 = Integer.parseInt(a, 2);
+            b1 = Integer.parseInt(b, 2);
+        }catch (Exception e) {
+            return "";
+        }
         int resultado = 1;
         for (int x = 0; x<b1; x++){
             resultado = resultado * a1;   
