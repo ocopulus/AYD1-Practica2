@@ -51,7 +51,7 @@ public class AYD1 {
         return resultado.toString;
     }
      
-    public String Multiplicacion(String a) {
+    public String RaizCuadrada(String a) {
         int a1 = Integer.parseInt(a, 2);
         int c1 = Math.sqrt(a1);
         String resultado = Integer.toString(c1, 2);
