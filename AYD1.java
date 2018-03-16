@@ -13,6 +13,7 @@ public class AYD1 {
         String resultado = Integer.toString(c1, 2);
         return resultado;
     }
+    
 
     public String Resta(String a, String b) {
         int a1 = Integer.parseInt(a, 2);
