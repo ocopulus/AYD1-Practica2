@@ -10,6 +10,9 @@ public class AYD1 {
          int a1 = 0;
          int b1 = 0;
          int nueva_Linea;
+         int nueva_lUis = 0;
+         
+
         try{
             a1 = Integer.parseInt(a, 2);
             b1 = Integer.parseInt(b, 2);
