@@ -7,8 +7,8 @@ public class AYD1 {
     }
 	
 	public String Suma(String a, String b) {
-         int a1;
-         int b1;
+         int a1 = 0;
+         int b1 = 0;
         try{
             a1 = Integer.parseInt(a, 2);
             b1 = Integer.parseInt(b, 2);
