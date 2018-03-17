@@ -98,4 +98,18 @@ public class AYD1 {
         return resultado;
     }
 
+    public String Modular(String a) {
+       int a1;
+         int b1;
+        try{
+            a1 = Integer.parseInt(a, 2);
+            b1 = Integer.parseInt(b, 2);
+        }catch (Exception e) {
+            return "";
+        }
+        int c1 = a1 % b1;
+        String resultado = Integer.toString(c1, 2);
+        return resultado;
+    }
+
 }
