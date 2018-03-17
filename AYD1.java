@@ -9,6 +9,7 @@ public class AYD1 {
 	public String Suma(String a, String b) {
          int a1 = 0;
          int b1 = 0;
+         int nueva_Linea;
         try{
             a1 = Integer.parseInt(a, 2);
             b1 = Integer.parseInt(b, 2);
